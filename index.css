@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.main{
+    display: flex;
+}
+#logo{
+    width: 100px;
+  padding: 37px;
+}
+.last{
+ border-radius: 50px;
+ height: 30px;
+}
+.sidebar img{
+     width: 30px;
+   padding: 30px; 
+   margin-left: -40px;
+   margin-top: -30px;
+   
+}
+.sidebar .image{
+  width: 50px;
+  margin-left: -45px;
+    
+}
+.sidebar ul{
+  border-right: 0.01px solid;
+  border-right-style: outset;
+  width: 200px;
+  background-color: white;
+  margin-top: 0;
+  position:fixed;
+}
+.sidebar ul li{
+    list-style-type: none;
+    display: flex;
+}
+.sidebar ul li p#name{
+ margin-top: 10px;
+}
+#message{
+    margin-left: -15px;
+}
+.container{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(white,white) padding-box,linear-gradient(to right,gold,deeppink) border-box;
+    margin-top: 10px;
+
+}
+div header img{
+    width: 60px;
+     margin-top: 4px;
+     border-radius: 50px;
+margin-left: 4px;
+}
+.story{
+    width: 70px;
+    height: 10vh;
+}
+.story-1{
+    width: 60px;
+    height: 10vh;
+}
+.lora,.lora img{
+    margin-left: 6px;
+}
+.lora p{
+    margin-left: 10px;
+}
+div header{
+    position: relative;
+    margin-left: 55%;
+    display: inline-flex;
+    gap: 30px;
+    background-color: white;
+    width: 39rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-style: ridge;
+    height: 20vh;
+}
+div header p{
+ margin-top: -5px;
+}
+#bracket{
+    position: absolute;
+    font-size: 30px;
+    margin-top: -95px;
+    margin-left: 40px;
+    background-color: whitesmoke;
+    padding: 10px;
+    clip-path: circle();
+}
+main div.info img{
+ width: 30px;
+ position: relative;
+ clip-path: circle();
+}
+main .info{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px ridge;
+    margin-top: -50px;
+    width: 530px;
+}
+main .info p{
+    margin-left: 380px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    margin: 160px;
+  margin-left: -250px;
+}
+ .updates{
+background-color: white;
+width: 500px;
+height: 700px;
+padding: 45px;
+margin-bottom: 30px;
+border-radius: 10px;
+}
+main div img.post{
+    width: 540px;
+    height: 450px;
+    margin-left: -15px;
+}
+
+ #save{
+padding-left: 355px;
+margin-top: -5px;
+position: absolute;
+ }
+ .btns img{
+     width: 30px;
+     margin-right: 10px;
+ }
+ footer{
+    display: flex;
+    gap: 10px;
+    border-top: 1px ridge;
+    width: 40vw;
+ }
+ footer img{
+    width: 25px;
+    height: 20px;
+    margin-top: 15px;
+ }
+ footer p:last-child{
+    color: deepskyblue;
+    margin-left: 300px;
+ }
+ section div img{
+    clip-path: circle();
+    width: 35px;
+ }
+ section div{
+    display:flex;
+margin-left: -100px;
+    
+ }
+ #sub{
+    color: grey;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-size: 13px;
+ }
+#sub-1{
+    color: grey;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-size: 13px;
+}
+  section div ul.list li{
+    display: flex;
+   margin: 10px;
+ }
+ .list2 p{
+margin-top: 30px;
+margin-left: 20px;
+ }
+ #switch{
+    list-style-type: none;
+    margin-top: 25px;
+    color:deepskyblue;
+    font-size: 14px;
+    margin-left: 20px;
+ }
+ .follow{
+    display: block;
+   position: absolute;
+  right: 40px;
+line-height: 60px;
+list-style-type: none;
+color: deepskyblue;
+font-size: 12px;
+ }
+ #last{
+    flex-wrap: wrap;
+    font-size: 11px;
+    color: grey;
+ }
